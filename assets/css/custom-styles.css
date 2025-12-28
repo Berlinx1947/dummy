@@ -1,0 +1,311 @@
+/* Services Section Styles */
+.service-item {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+.service-item .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  color: #fff;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  transition: background 0.3s ease;
+}
+
+.service-item:hover .icon {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+}
+
+.service-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.service-item p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.service-item .btn {
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  text-transform: uppercase;
+}
+
+/* Specialties Section Styles (Non-clickable) */
+.specialty-item {
+  background: #f1f8ff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: default; /* Remove clickable cursor */
+}
+
+.specialty-item i {
+  font-size: 32px;
+  color: #1a3d7c;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.specialty-item p {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: #1a3d7c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+  .specialty-item {
+    margin-bottom: 20px;
+  }
+}
+
+/* Revenue Cycle Section Styles */
+#Revenue-Cycle-Management .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#Revenue-Cycle-Management h5 {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#Revenue-Cycle-Management p {
+  color: #555;
+}
+
+/* RCM Boxes */
+.rcm-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rcm-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Process Steps */
+.process-step {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.process-step .step-icon {
+  font-size: 40px;
+  color: #4facfe;
+}
+
+.process-step h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.process-step ul {
+  list-style: disc;
+  text-align: left;
+}
+
+.process-step li {
+  margin-bottom: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .process-step h4 {
+    font-size: 16px;
+  }
+}
+
+/* Credentialing and Contracting Section */
+#credentialing-contracting .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#credentialing-contracting .rcm-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#credentialing-contracting .rcm-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#credentialing-contracting h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#credentialing-contracting ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+#credentialing-contracting .process-step {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#credentialing-contracting .process-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#credentialing-contracting .process-step .step-icon {
+  font-size: 32px;
+  color: #4facfe;
+}
+
+#credentialing-contracting .process-step h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+  #credentialing-contracting .process-step h4 {
+    font-size: 14px;
+  }
+}
+
+/* EHR, PM & Clearing House Setup Section */
+#ehr-pm-clearing .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#ehr-pm-clearing .rcm-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#ehr-pm-clearing .rcm-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#ehr-pm-clearing h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#ehr-pm-clearing ul {
+  list-style: disc;
+  padding-left: 20px;
+  color: #555;
+}
+
+#ehr-pm-clearing .process-step {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#ehr-pm-clearing .process-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#ehr-pm-clearing .process-step .step-icon {
+  font-size: 32px;
+  color: #4facfe;
+}
+
+#ehr-pm-clearing .process-step h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+@media (max-width: 991px) {
+  #ehr-pm-clearing .process-step h4 {
+    font-size: 14px;
+  }
+}
+
+/* Electronic Transactions Section Styles */
+#electronic-transactions .section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#electronic-transactions .process-step {
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#electronic-transactions .process-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+#electronic-transactions .process-step .step-icon {
+  font-size: 40px;
+  color: #4facfe;
+}
+
+#electronic-transactions .process-step h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+#electronic-transactions .process-step p {
+  color: #555;
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  #electronic-transactions .process-step p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 767px) {
+  #electronic-transactions .process-step h4 {
+    font-size: 16px;
+  }
+}
