@@ -1,3 +1,69 @@
+/* Custom Styles for About Section */
+.about img {
+  border-radius: 16px;
+  padding: 8px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about img:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.2);
+}
+
+.about-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.about-card:hover {
+  background: #0d6efd; 
+  color: #ffffff;
+  transform: translateY(-6px);
+}
+
+.about-card:hover h5,
+.about-card:hover p {
+  color: #ffffff;
+}
+
+.about-card i {
+  color: #0d6efd;
+  transition: color 0.3s ease;
+}
+
+.about-card:hover i {
+  color: #ffffff;
+}
+
+/* 6D Process Hover Effect */
+.process-step {
+  background: #ffffff;
+  border-radius: 12px;
+  transition: all 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  cursor: default; /* Non-clickable */
+  color: #333; /* Default text color */
+}
+
+.process-step:hover {
+  background: #0d6efd; /* Change background on hover */
+  color: #ffffff; /* Change text color on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Change text colors for inner elements on hover */
+.process-step:hover h4,
+.process-step:hover p,
+.process-step:hover .step-number {
+  color: #ffffff;
+}
+
 /* Services Section Styles */
 .service-item {
   background: #fff;
@@ -95,6 +161,45 @@
 
 #Revenue-Cycle-Management p {
   color: #555;
+}
+
+.rcm-box {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: default; /* Non-clickable */
+  color: #333;
+  display: flex;
+  gap: 15px;
+}
+
+.rcm-box:hover {
+  background: #0d6efd; /* Hover background */
+  color: #ffffff; /* Hover text color */
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Change inner elements text on hover */
+.rcm-box:hover h5,
+.rcm-box:hover p {
+  color: #ffffff;
+}
+
+/* Image styling */
+.rcm-box img.rcm-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+  transition: transform 0.3s ease;
+}
+
+.rcm-box:hover img.rcm-img {
+  transform: scale(1.05);
 }
 
 /* RCM Boxes */
