@@ -414,3 +414,112 @@
     font-size: 16px;
   }
 }
+
+/* Vertical Card Layout */
+.rcm-box-vertical {
+  flex-direction: column;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Image Wrapper */
+.rcm-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Top Image */
+.rcm-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* Icon Overlay */
+.rcm-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 36px;
+  background: #0d6efd;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Content */
+.rcm-content {
+  padding: 20px;
+}
+
+/* Hover Effects */
+.rcm-box-vertical:hover .rcm-img-top {
+  transform: scale(1.08);
+}
+
+.rcm-box-vertical:hover .rcm-icon {
+  background: #ffffff;
+  color: #0d6efd;
+  transform: scale(1.1);
+}
+
+/* Mobile Optimization */
+@media (max-width: 767px) {
+  .rcm-img-top {
+    height: 160px;
+  }
+}
+
+/* Process Card Vertical Layout */
+.process-vertical {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Image Wrapper */
+.process-img-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image */
+.process-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+/* Icon Overlay */
+.process-icon {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 34px;
+  background: #0d6efd;
+  color: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+/* Hover Effects */
+.process-step:hover .process-img {
+  transform: scale(1.08);
+}
+
+.process-step:hover .process-icon {
+  background: #ffffff;
+  color: #0d6efd;
+  transform: scale(1.1);
+}
+
+/* Mobile Optimization */
+@media (max-width: 767px) {
+  .process-img {
+    height: 160px;
+  }
+}
+
