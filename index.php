@@ -87,7 +87,7 @@
         >
           <a href="index.html" class="logo d-flex align-items-center me-auto">
             <!-- Uncomment the line below if you also wish to use an image logo -->
-            <!-- <img src="assets/img/demo.png" alt="DocBillSolutions" /> -->
+            <img src="assets/img/logo.png" alt="DocBillSolutions"/>
             <h1 class="sitename">DocBillSolutions</h1>
           </a>
 
@@ -1825,10 +1825,10 @@
               <!-- End Info Item -->
             </div>
 
-            <!-- Contact Form -->
+           <!-- Contact Form -->
             <div class="col-lg-8">
               <form
-                action="forms/contact.php"
+                action="contact.php"  
                 method="post"
                 class="php-email-form"
                 data-aos="fade-up"
@@ -1884,12 +1884,12 @@
                   </div>
 
                   <div class="col-md-12 text-center">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">
+                    <!-- Status messages -->
+                    <div class="loading" style="display: none; color: white;">Loading...</div>
+                    <div class="error-message" style="display: none; color: white;"></div>
+                    <div class="sent-message" style="display: none; color: white;">
                       Your message has been sent. Thank you!
                     </div>
-
                     <button type="submit">Send Message</button>
                   </div>
                 </div>
@@ -1909,6 +1909,7 @@
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
               <span class="sitename">DocBillSolutions</span>
+              <img src="assets/img/logo.png" alt="DocBillSolutions"/>
             </a>
 
             <p class="mt-3">
